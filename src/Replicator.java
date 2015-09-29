@@ -35,7 +35,7 @@ public abstract class Replicator {
     protected String jadUrl() {
         if (os.contains("Windows")) return "http://varaneckas.com/jad/jad158g.win.zip";
         else if (os.contains("Mac")) return "http://varaneckas.com/jad/jad158g.mac.intel.zip";
-        else if (os.contains("Linux")) return "http://varaneckas.com/jad/jad158e.linux.static.zip";
+        else if (os.contains("Linux")) return "http://varaneckas.com/jad/jad158e.linux.intel.zip";
         else return null;
     }
 
