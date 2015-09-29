@@ -1,2 +1,14 @@
 # Ignore output folder Intellij uses
 out/
+
+# Ignore results of compiling Java files
+**/*/*.class
+*.jar
+**/*/*.jar
+
+# Ignore files created by program
+jadFiles/
+jad
+jad.exe
+jadZip.zip
+self-replicate-*/
