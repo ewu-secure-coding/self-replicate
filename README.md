@@ -21,10 +21,15 @@ Currently, the program has succesfully run on Mac OSX Yosemite and Debian 8. At 
 number: specifies number of generations to create, optional
 
 -x: specifies that each generation should cleanup any files and folders required to create the next generation
+
 -s: specifies that std out and std err outputs should be tunneled back to console
+
 -p: specifies that a generation should delete its parent and pass its location to its child
+
 -d: specifies program should halt after decompiling itself, use for debugging
+
 -c: specifies program should halt after compiling source for next generation, use for debugging
+
 -i: specifies that program should run indefinitely, may result in computer crash due to either no storage or RAM space
 
 more functionality to come...
